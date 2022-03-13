@@ -120,17 +120,41 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Home\HomeController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\favicon.ico" />
+    <Content Include="Content\assets\img\about\1.jpg" />
+    <Content Include="Content\assets\img\about\2.jpg" />
+    <Content Include="Content\assets\img\about\3.jpg" />
+    <Content Include="Content\assets\img\about\4.jpg" />
+    <Content Include="Content\assets\img\close-icon.svg" />
+    <Content Include="Content\assets\img\header-bg.jpg" />
+    <Content Include="Content\assets\img\logos\facebook.svg" />
+    <Content Include="Content\assets\img\logos\google.svg" />
+    <Content Include="Content\assets\img\logos\ibm.svg" />
+    <Content Include="Content\assets\img\logos\microsoft.svg" />
+    <Content Include="Content\assets\img\map-image.png" />
+    <Content Include="Content\assets\img\navbar-logo.svg" />
+    <Content Include="Content\assets\img\portfolio\1.jpg" />
+    <Content Include="Content\assets\img\portfolio\2.jpg" />
+    <Content Include="Content\assets\img\portfolio\3.jpg" />
+    <Content Include="Content\assets\img\portfolio\4.jpg" />
+    <Content Include="Content\assets\img\portfolio\5.jpg" />
+    <Content Include="Content\assets\img\portfolio\6.jpg" />
+    <Content Include="Content\assets\img\team\1.jpg" />
+    <Content Include="Content\assets\img\team\2.jpg" />
+    <Content Include="Content\assets\img\team\3.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="Content\js\scripts.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -159,12 +183,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
