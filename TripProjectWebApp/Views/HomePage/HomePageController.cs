@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace TripProjectWebApp.Views.Home
+namespace TripProjectWebApp.Views.HomePage
 {
-    public class HomeController : Controller
+    public class HomePageController : Controller
     {
-        // GET: Home
+        // GET: HomePage
         public ActionResult Index()
         {
             return View();
