@@ -126,6 +126,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Appetizer\AppetizerController.cs" />
     <Compile Include="Views\HomePage\HomePageController.cs" />
+    <Compile Include="Views\IdealWeightCalculation\IdealWeightCalculationController.cs" />
     <Compile Include="Views\MainCourse\MainCourseController.cs" />
     <Compile Include="Views\Salads\SaladsController.cs" />
     <Compile Include="Views\Soups\SoupsController.cs" />
@@ -140,6 +141,7 @@
     <Content Include="Content\Photos\AnaYemek1.jpg" />
     <Content Include="Content\Photos\AnaYemek2.jpg" />
     <Content Include="Content\Photos\AnaYemek3.jpg" />
+    <Content Include="Content\Photos\CalcPhoto.jpg" />
     <Content Include="Content\Photos\Hakkımda1.jpg" />
     <Content Include="Content\Photos\Hakkımda2.jpg" />
     <Content Include="Content\Photos\Hakkımda3.jpg" />
@@ -194,6 +196,7 @@
     <Content Include="Views\HomePage\_PartContact.cshtml" />
     <Content Include="Views\HomePage\_PartGallery.cshtml" />
     <Content Include="Views\HomePage\_PartAbout.cshtml" />
+    <Content Include="Views\IdealWeightCalculation\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
